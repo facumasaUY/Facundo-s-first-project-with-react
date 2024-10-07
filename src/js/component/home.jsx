@@ -9,8 +9,10 @@ import Footer from "./footer.jsx";
 const Home = () => {
 	return (<>
 		<NavBar></NavBar>
-		<Jumbotron></Jumbotron>
+		<div className="container">
+		<Jumbotron></Jumbotron> 
 		<Card></Card>
+		</div>
 		<Footer></Footer>
 		</>)
 	
